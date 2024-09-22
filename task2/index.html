@@ -4,58 +4,58 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	
 	<title>Задание 2</title>
 </head>
 
 <body>
-	<header>
-		<nav id="nav">
-		  <a href="https://t.me/+wsmMKTsp4CYwZGEy">Telegram</a>
-		  <a href="https://www.instagram.com/eelwwi?igsh=MWN6eTQxd3o2eGpsbA%3D%3D&utm_source=qr
-		  " class="nav-button">Inst</a>
-		  <a href="https://vk.com/elya.wira" class="nav-button">VK</a>
+	<header class="header">
+		<img class="logo" src="https://i.pinimg.com/736x/ae/94/c6/ae94c65be4b1efe8a939083359dbf6ef.jpg" alt="" width="100">
+		<nav class="nav">
+			<a class="nv" href="#links">Ссылки</a>
+			<a class="nv" href="#table">Таблица</a>
+			<a class="nv" href="#form">Форма</a>
 		</nav>
-	  </header>
-	  <div class="content-container">
-		<div class="title">Список ссылок</div>
+		<h1 class="zagalovok">Котикисобачки.com</h1>
+	</header>
 	<section id="links">
 		<h2 class="section-title">Ссылки</h2>
 	<ul>
-		<li><a href="http://www.kubsu.ru/">Ссылка на сайт kubsu</a></li>
-		<li><a href="https://www.kubsu.ru/">В протоколе https</a></li>
-		<li><a href="">
+		<li class="ssilki"><a href="http://www.kubsu.ru/">Ссылка на сайт kubsu</a></li>
+		<li class="ssilki"><a href="https://www.kubsu.ru/">В протоколе https</a></li>
+		<li class="ssilki"><a href="">
 				<div>Изображение ссылка</div>
-				<img src="https://www.kubsu.ru/sites/default/files/news/-go_hoe7wus.jpg" alt="" width="700">
+				<img src="https://i.pinimg.com/originals/ac/a1/3b/aca13b415225587143f06a4df743df45.jpg" alt="" width="700">
 			</a>
 		</li>
-		<li><a href="inner.html">Внутренняя страница</a></li>
-		<li><a href="index.html">Главная страница</a></li>
-		<li><a href="#form">Фрагмент текущей страницы</a></li>
-		<li><a href="http://www.kubsu.ru/?name=elya&password=12345&age=19">Ссылка с тремя параметрами url</a></li>
-		<li><a href="http://www.kubsu.ru/?id=134">Ссылка с параметром id</a></li>
-		<li><a href="inner.html">На страницу в текущем каталоге</a></li>
-		<li><a href="./about/page.html">Ссылка в каталоге about</a></li>
-		<li><a href="../page.html">Ссылка в каталоге выше текущего</a></li>
-		<li><a href="../../page.html">Ссылка в каталоге двумя уровнями выше</a></li>
-		<li>Контекстная ссылка в тексте абзаца:
+		<li class="ssilki"><a href="inner.html">Внутренняя страница</a></li>
+		<li class="ssilki"><a href="index.html">Главная страница</a></li>
+		<li class="ssilki"><a href="#form">Фрагмент текущей страницы</a></li>
+		<li class="ssilki"><a href="http://www.kubsu.ru/?name=elya&password=12345&age=19">Ссылка с тремя параметрами url</a></li>
+		<li class="ssilki"><a href="http://www.kubsu.ru/?id=134">Ссылка с параметром id</a></li>
+		<li class="ssilki"><a href="inner.html">На страницу в текущем каталоге</a></li>
+		<li class="ssilki"><a href="./about/page.html">Ссылка в каталоге about</a></li>
+		<li class="ssilki"><a href="../page.html">Ссылка в каталоге выше текущего</a></li>
+		<li class="ssilki"><a href="../../page.html">Ссылка в каталоге двумя уровнями выше</a></li>
+		<li class="ssilki">Контекстная ссылка в тексте абзаца:
 			<p>Элемент HTML input используется для создания интерактивных элементов управления в веб-формах для получения данных от пользователя; в зависимости от устройства и <a href="https://developer.mozilla.org/ru/docs/Glossary/User_agent">user agent</a>, доступен широкий выбор типов входных данных и виджетов управления.</p>
 		</li>
-		<li><a href="https://learn.javascript.ru/">Ссылка на фрагмент страницы стороннего сайта</a></li>
-		<li>Ссылки из прямоугольных и круглых областей картинки
+		<li class="ssilki"><a href="https://learn.javascript.ru/">Ссылка на фрагмент страницы стороннего сайта</a></li>
+		<li class="ssilki">Ссылки из прямоугольных и круглых областей картинки
 
 			<br>
-			<img src="https://www.kubsu.ru/sites/default/files/news/-go_hoe7wus.jpg" alt="" width="700" usemap="#mymap">
+			<img src="https://i.pinimg.com/736x/eb/87/50/eb87505809ce399b51ba9c7f99e38251.jpg" alt="" width="700" usemap="#mymap">
 			<map name="mymap">
 				<area shape="circle" coords="200,200,150" href="https://kubsu.ru/" alt="Круглая область">
 				<area shape="rect" coords="0,0,300,100" href="https://kubsu.ru/" alt="Прямоугольная область">
 			</map>
 		</li>
-		<li><a href="">С пустым href</a></li>
-		<li><a>Ссылка без href</a></li>
-		<li><a href="https://www.kubsu.ru/" rel="nofollow">Запрещено переходить поисковикам</a></li>
-		<li><a href="https://www.kubsu.ru/" rel="noindex">Запрещено индексировать</a></li>
-		<li>
+		<li class="ssilki"><a href="">С пустым href</a></li>
+		<li class="ssilki"><a>Ссылка без href</a></li>
+		<li class="ssilki"><a href="https://www.kubsu.ru/" rel="nofollow">Запрещено переходить поисковикам</a></li>
+		<li class="ssilki"><a href="https://www.kubsu.ru/" rel="noindex">Запрещено индексировать</a></li>
+		<li class="ssilki">
 			<p>Нумерованный список ссылок</p>
 			<ol>
 				<li><a href="https://m.ok.ru/?ysclid=m10q75rq3o986169067" title="Одноклассники">Одноклассники</a></li>
@@ -64,69 +64,122 @@
 				<li><a href="https://gadalkatopmagic24.ru/phone/" title="Татьяна">Татьяна</a></li>
 			</ol>
 		</li>
-		<li><a href="ftp://elya:password12345@example.com/files/file.txt">Ссылка на FTP</a></li>
+		<li class="ssilki"><a href="ftp://elya:password12345@example.com/files/file.txt">Ссылка на FTP</a></li>
 		</ul>
+	<section id="table">
+		<h2 class="section-title">Таблица</h2>
+		<table>
+			<tr class="st">
+				<th></th>
+				<th>Мейн-кун</th>
+				<th>Сфинкс</th>
+				<th>Курильский бобтейл</th>
+				<th>Ориентальная</th>
+				<th colspan="2">Манчкин</th>
+			</tr>
+			<tr>
+				<th>Окрас</th>
+				<th>Мраморный </th>
+				<th>Серый,розоватый</th>
+				<th>Разный</th>
+				<th>Разный</th>
+				<th>Разный</th>
+				<th>Разный</th>
+			</tr>
+			<tr class="st">
+				<th>Цвет глаз</th>
+				<th>Глаза-большие,круглые,слегка раскосые.Могут быть зелеными,желтыми</th>
+				<th>Голубые</th>
+				<th>Оранжевые</th>
+				<th>Зеленые</th>
+				<th colspan="2">Любые</th>
+			</tr>
+			<tr>
+				<th>Шерсть</th>
+				<th>Длинная,густая</th>
+				<th>Отсутствует</th>
+				<th>Стандартная</th>
+				<th>Короткошерстная</th>
+				<th>Разная</th>
+				<th>Разная</th>
+			</tr>
+			<tr class="st">
+				<th>Поведение</th>
+				<th>Дружелюбный</th>
+				<th>Любопытный</th>
+				<th>Независимый</th>
+				<th>Ласковый</th>
+				<th>Игривый</th>
+				<th>Приятный</th>
+			</tr>
+			<tr>
+				<th>Уши</th>
+				<th>Большие</th>
+				<th>Средние</th>
+				<th>Средние</th>
+				<th>Очень большие</th>
+				<th>Средние</th>
+				<th>Маленькие</th>
+			</tr>
+			<tr class="st">
+				<th>Пушистый</th>
+				<th>Лысый</th>
+				<th>Короткошерстный</th>
+				<th>Короткий</th>
+				<th>Пушистый</th>
+				<th colspan="2">Стандартный</th>
+			</tr>
+		</table>
 	</section>
-	<div class="content-container"></div>
-        <div class="title">Таблица</div>
-        <table>
-        <tr class="string1"><th>Колонка 1</th><th>Колонка 2</th><th>Колонка 3</th><th>Колонка 4</th></tr>
-        <tr class="string2"><td>Ячейка 1</td><td>Ячейка 2</td><td>Ячейка 3</td><td>Ячейка 4</td></tr>
-        <tr class="string1"><td colspan="2">Ячейка 5 и Ячейка 6</td><td>Ячейка 7</td><td>Ячейка 8</td></tr>
-        <tr class="string2"><td>Ячейка 9</td><td>Ячейка 10</td><td>Ячейка 12</td><td>Ячейка 13</td></tr>
-        <tr class="string1"><td>Ячейка 14</td><td>Ячейка 15</td><td>Ячейка 16</td><td>Ячейка 17</td></tr>
-        <tr class="string2"><td>Ячейка 18</td><td colspan="3">Ячейка 19 и Ячейка 20 и Ячейка 21</td></tr>
-        <tr class="string1"><td>Ячейка 22</td><td>Ячейка 23</td><td>Ячейка 24</td><td>Ячейка 25</td></tr>
-      </table>
-    </div>
-	<br>
-	<h2>Форма</h2>
-	<form action="/" method="POST" id="form">
-		<label for="fio">ФИО</label>
-		<br>
-		<input type="text" name="fio" id="fio">
-		<br>
-		<label for="tel">Телефон</label>
-		<br>
-		<input type="tel" name="tel" id="tel">
-		<br>
-		<label for="email">Email</label>
-		<br>
-		<input type="email" name="email" id="email">
-		<br>
-		<label for="birth">Дата рождения</label>
-		<br>
-		<input type="date" name="birth" id="birth">
-		<br>
-		Пол
-		<br>
-		<label>
-			<input type="radio" name="gender" value="Мужчина" />
-			Мужчина</label>
-		<label>
-			<input type="radio" name="gender" value="Женщина" />
-			Женщина</label>
-		<br />
-		<label for="language">Любимый язык программирования</label>
-		<br>
-		<select name="PL list" multiple="multiple" id="language">
-			<option value="Python" selected="selected">Python</option>
-			<option value="C++">C++</option>
-			<option value="Java">Java</option>
-			<option value="JavaScript">JavaScript</option>
-			<option value="PHP">PHP</option>
-			<option value="Golang">Golang</option>
-		</select>
-		<br>
-		<label for="bio">Биография</label>
-		<br>
-		<textarea name="bio" id="bio"></textarea>
-		<br>
-		<label for="contract">С контрактом ознакомлен(а)</label>
-		<input type="checkbox" name="contract" id="contract" />
-		<br>
-		<input type="submit" value="Сохранить">
-	</form>
+	<section id="form">
+		<h2 class="section-title">Форма</h2>
+		<form action="/" method="POST" id="forma">
+			<label for="fio">ФИО</label>
+			<input type="text" name="fio" id="fio">
+			<br>
+			<label for="tel">Телефон</label>
+			<input type="tel" name="tel" id="tel">
+			<br>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+			<br>
+			<label for="birth">Дата рождения</label>
+			<input type="date" name="birth" id="birth">
+			<br>
+			Пол
+			<label>
+				<input type="radio" name="sex" value="Мужчина" />
+				Мужчина</label>
+			<label>
+				<input type="radio" name="sex" value="Женщина" />
+				Женщина</label>
+			<br />
+			<label for="lang">Любимый язык программирования</label>
+			<br>
+			<select name="PL list" multiple="multiple" id="lang">
+				<option value="1" selected="selected">Pascal</option>
+				<option value="2">C</option>
+				<option value="3">C++</option>
+				<option value="4">JavaScript</option>
+				<option value="5">PHP</option>
+				<option value="6">Python</option>
+				<option value="7">Java</option>
+				<option value="8">Haskel</option>
+				<option value="9">Clojure</option>
+				<option value="10">Prolog</option>
+				<option value="11">Scala</option>
+			</select>
+			<br>
+			<label for="bio">Биография</label>
+			<br>
+			<textarea name="bio" id="bio" rows="10" cols="50"></textarea>
+			<br>
+			<label for="contract">С контрактом ознакомлен(а)</label>
+			<input type="checkbox" name="contract" id="contract" />
+			<br>
+			<input type="submit" value="Сохранить">
+		</form>
+	</section>
 	
 	<footer></footer>
         <div class="footer-text">(c)Эльвира Азизова</div>
