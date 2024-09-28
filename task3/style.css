@@ -8,6 +8,7 @@ a {
 	color: rgb(190, 62, 23);
 }
 
+
 body{
 	background-color: rgb(248, 241, 147);
 }
@@ -17,11 +18,13 @@ body{
 }
 
 .logo{
+	
 	float: left;
 }
 
 .nav {
-	float: right;
+
+	float:right;
 }
 .header{
 	padding: 30px;
@@ -70,4 +73,28 @@ tr{
 .st{
 	background-color: rgba(245, 146, 54, 0.486);
 
+}
+@media (min-width: 800px)
+{
+    .title
+    {
+        font-size: 80px;
+    }
+    table
+    {
+        width: 500px;
+        height: 400px;
+    }
+    .content-container
+    {
+        order: 2;
+    }
+    .content-container_links
+    {
+        order: 1;
+    }
+    .content-container_form
+    {
+        order: 3;
+    }
 }
